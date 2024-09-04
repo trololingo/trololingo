@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Perfumes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://wallpapersmug.com/download/1024x768/7524b0/web-minimal-venom-art.jpg" alt="Logo" class="logo">
+        <h1>John Marcos Perfumes</h1>
+        
+        <div class="container-icon">
+            <div class="container-cart-icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-cart"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                    />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product hidden">
+                    <!-- Productos se insertan aquí dinámicamente -->
+                </div>
+                <div class="cart-total hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$0</span>
+                </div>
+                <p class="cart-empty">El carrito está vacío</p>
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="https://felix.com.pa/cdn/shop/products/1_3d7dd304-b1fa-4de3-a508-f22c521fa557_1200x.png?v=1673109315" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Bond N°9 Greenwich Village</h2>
+                <p class="price">$425</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1587017539504-67cfbddac569?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Perfume Versace Eros</h2>
+                <p class="price">$45</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1700522604220-471669e4364c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Perfume Savage Dior</h2>
+                <p class="price">$80</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://farma365.com.ar/wp-content/uploads/2024/05/Invictus-Victory-Elixir-Parfum-4.webp" alt="Producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Paco Rabanne Invictus</h2>
+                <p class="price">$45</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://perfumesreal.com/cdn/shop/files/LATTAFAOUDFORGLORYEDP.jpg?v=1698430549&width=720" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Badee al Oud Black</h2>
+                <p class="price">$15</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://www.neo2.com/wp-content/uploads/2024/01/perfume-rabanne-phantom-parfum-hombre_03.jpg" alt="Producto">
+            </figure>
+            <div class="info-product">
+                <h2>Paco Rabanne Phantom</h2>
+                <p class="price">$35</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://resources.sanborns.com.mx/imagenes-sanborns-ii/1200/8435415017206_8.jpg?scale=500&qlty=75" alt="Producto">
+            </figure>
+            <div class="info-product">
+                <h2>Jean Paul Gaultier</h2>
+                <p class="price">$65</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1633071990941-1417f7dea790?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Producto">
+            </figure>
+            <div class="info-product">
+                <h2>One Million</h2>
+                <p class="price">$25</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://theparfumerie.b-cdn.net/wp-content/uploads/2021/12/BAD-BOY-LE-PARFUMRE2021_SCH-21052_STORYTELLING-VISUAL-FOR-RICH-PRODUCT-PAGE--scaled.jpg" alt="Producto">
+            </figure>
+            <div class="info-product">
+                <h2>Bad Boy Carolina</h2>
+                <p class="price">$75</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda de perfumes con una amplia variedad de fragancias para cada ocasión. ¡Encuentra tu aroma perfecto con nosotros!</p>
+        </div>
+        <div class="footer-section links">
+            <h2>Enlaces Rápidos</h2>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contacto</h2>
+            <p>Dirección: San isidro, Dominican Republic</p>
+            <p>Teléfono: +123 456 789</p>
+            <p>Email: marcoscaceresyluis@gmail.com</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 John Marcos Perez Caceres. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
